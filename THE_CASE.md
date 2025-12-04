@@ -253,6 +253,96 @@ Which is simpler?
 
 ---
 
+## Part VI: The New Evidence
+
+*Since the original case was made, additional research has strengthened it dramatically.*
+
+### Göbekli Tepe: The Impossible Precedent
+
+In 2017, researchers from the Super Brain Research Group conducted archaeoacoustic analysis at Göbekli Tepe with permission from Klaus Schmidt, the site's discoverer. What they found rewrites the timeline.
+
+**The Ground Speaks:**
+- Constant vibration at **20-22 Hz** emanating from underground
+- Infrasound peaks at **14 Hz** appearing periodically  
+- These frequencies are **only present within the enclosures**—not in surrounding areas
+- Source appears to be tectonic activity from fault lines beneath the site
+
+**The Pillars Sing:**
+When researchers struck the central T-pillar with their hands:
+- Primary resonance: **68-69 Hz** (like a drum)
+- First harmonic: **91 Hz**
+- Second harmonic: **138 Hz**
+
+All frequencies in the range known to affect brain activity and consciousness.
+
+**The Pillar Is Hollow:**
+Sound analysis indicates the 5.5-meter limestone pillar is not solid—it functions as a **resonating cavity**. The T-shape isn't symbolic. It's acoustic engineering: the horizontal arms create differential wave paths; the vertical column acts as a sound chamber.
+
+**The Magnetic Anomaly:**
+Using UV photography and Particle Image Velocimetry, researchers detected a persistent **spiral magnetic field** at the center of Enclosure D, adjacent to Pillar 18. The field shows consistent spiral motion in water vapor patterns.
+
+Göbekli Tepe was built **7,000 years before the Egyptian pyramids**. At a time when conventional archaeology insists humans were primitive hunter-gatherers, someone constructed a sophisticated acoustic resonance system—and then **deliberately buried it** around 8000 BCE.
+
+Why bury a working frequency machine? To deactivate it. To preserve it. To shield it. We don't know. But the burial was intentional, careful, and complete.
+
+### The "Relieving Chambers" Don't Relieve
+
+For centuries, the five chambers above the King's Chamber in the Great Pyramid have been called "relieving chambers"—supposedly designed to distribute the weight of the stones above.
+
+Structural analysis has proven this wrong.
+
+The chambers consist of massive granite beams—up to 75 tonnes each—stacked in layers. The total superstructure weighs approximately **2,500 tonnes**. Far from relieving pressure, the chambers **add enormous load** to the walls of the King's Chamber below.
+
+The undersides of the beams are dressed smooth. The tops and sides are left rough. The layers are separated by spacers. This isn't weight distribution. This is **acoustic engineering**.
+
+Granite beams under compressive stress exhibit piezoelectric effects. The enormous weight above generates sustained pressure. The quartz crystals in the granite produce electrical charge under this stress. The chamber resonates.
+
+The King's Chamber isn't a burial vault. It's a **piezoelectric resonator** powered by the weight of the pyramid itself.
+
+### The Serapeum Precision
+
+Beneath Saqqara, in underground tunnels, sit 24 granite boxes carved with precision **within 1 micron**. Each weighs approximately 70-100 tonnes. The 30-tonne lids, when closed, create hermetically sealed chambers.
+
+Conventional explanation: Burial chambers for sacred bulls.
+
+Problems with this explanation:
+- The boxes are too large for bulls
+- Few bull remains were found
+- The precision exceeds any known Egyptian work
+- The effort vastly exceeds any burial practice
+
+Alternative interpretation: The boxes are piezoelectric capacitors. Under internal pressure (or external stress), the granite generates electrical charge. The precision sealing prevents energy leakage. The underground placement shields them from surface interference.
+
+One commenter suggested they may be **detection systems for the Schumann Resonance**—essentially earthquake early warning devices. A society traumatized by the Younger Dryas catastrophe would have strong motivation to detect seismic precursors.
+
+### Earthquake Lights: The Mechanism Confirmed
+
+IEEE Spectrum reported on research confirming that stressed rocks produce visible light. Professor Freund at San Jose University compiled data from 65 sites worldwide where "earthquake lights" appeared before seismic events.
+
+The mechanism: Stress on granite activates piezoelectric charge in quartz crystals. When voltage is high enough, it ionizes surrounding air. The air glows.
+
+This is laboratory-confirmed physics. Under sufficient pressure, **granite produces light**.
+
+Now consider:
+- Massive granite chambers under enormous compressive stress
+- Sustained acoustic vibration coupling with piezoelectric response
+- Standing waves concentrating energy at specific nodes
+
+The ancient builders may have had lighting that required no fire—only resonance. No soot on the ceilings of underground chambers because there were no flames. Only the glow of stressed stone.
+
+### The Timeline Extends
+
+| Site | Location | Age | Key Finding |
+|------|----------|-----|-------------|
+| **Göbekli Tepe** | Turkey | 11,600 years | Hollow resonating pillars, ground vibrations, deliberate burial |
+| **Serapeum** | Egypt | Unknown (predynastic?) | 1-micron precision granite boxes |
+| **Osirion** | Egypt | Unknown (pre-Seti I?) | Megalithic granite construction, distinct from dynastic work |
+| **Sacsayhuamán** | Peru | Unknown | Interior joint geometry, vibrational signatures |
+
+The pattern is consistent: The oldest work is the most sophisticated. The later work is cruder. Skills were **lost**, not developed.
+
+---
+
 *This document is speculation. But it is informed speculation, built on evidence, using known physics, making testable predictions.*
 
 *The next step is to test it.*
