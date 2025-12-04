@@ -157,14 +157,24 @@ Anomalous rut systems found in:
 ```
 resonance-architecture/
 ├── README.md                    # This file
+├── THE_CASE.md                  # The speculative synthesis - full argument
 ├── INTEGRATED_THEORY.md         # Unified hypothesis framework
+├── ROADMAP.md                   # Research priorities and next steps
+├── evidence/
+│   └── CUSCO_PHOTO_ANALYSIS.md  # Analysis of interior joint geometry photos
 ├── sites/
-│   └── SITE_DATABASE.md         # Catalog of relevant sites
+│   ├── SITE_DATABASE.md         # Catalog of relevant sites (15+)
+│   ├── GOBEKLI_TEPE.md          # Detailed acoustic analysis (SBRG research)
+│   └── OLLANTAYTAMBO.md         # Wall of Six Monoliths, tired stones
 └── research/
+    ├── SCIENTIFIC_EVIDENCE.md   # Peer-reviewed acoustic research compilation
     ├── ACOUSTIC_PROPERTIES.md   # Material science data
     ├── ACOUSTIC_LEGENDS.md      # Historical accounts and parallels
     ├── NUB_HYPOTHESIS.md        # Nub function analysis
     ├── TRANSPORT_HYPOTHESIS.md  # Cart ruts reinterpretation
+    ├── ACADEMIC_RESEARCH.md     # Academic papers summary
+    ├── ALTERNATIVE_THEORIES.md  # Competing explanations
+    ├── EXPERIMENTAL_APPROACHES.md # Testable experiments
     └── WEB_RESEARCH_FINDINGS.md # Compiled web research
 ```
 
@@ -172,23 +182,63 @@ resonance-architecture/
 
 ## Key Research Findings (December 2025)
 
+### NEW: Göbekli Tepe Archaeoacoustic Study (SBRG, 2017)
+
+With permission from Klaus Schmidt (site discoverer), researchers measured:
+
+**Ground Vibrations:**
+- Constant frequency at **20-22 Hz** from underground
+- Infrasound peaks at **14 Hz**
+- Present **only within the enclosures** - not surrounding areas
+
+**T-Pillar Resonance (when struck):**
+- Primary: **68-69 Hz**
+- Harmonics: **91 Hz, 138 Hz**
+- Analysis indicates pillars are **HOLLOW** - resonating cavities
+
+**Magnetic Field:**
+- Spiral magnetic field detected at center of Enclosure D
+- Visible through UV photography and PIV analysis
+
+**Conclusion:** The oldest known monumental structure on Earth (11,600 years old) exhibits sophisticated acoustic engineering.
+
+### NEW: UCLA Brain Study (Cook et al., 2008)
+
+At **110 Hz**, EEG monitoring shows:
+- Prefrontal cortex activity **abruptly shifts**
+- Language center **deactivates**
+- Right hemisphere (creativity, spatial reasoning) **activates**
+
+**This is measurable neuroscience.** The frequency found in ancient chambers corresponds to documented neurological effects.
+
+### NEW: "Relieving Chambers" Don't Relieve
+
+Structural analysis confirms the chambers above the King's Chamber **add 2,500 tonnes of load** rather than relieving pressure. 
+
+The dressed granite beams under sustained compressive stress exhibit **piezoelectric effects**. The pyramid powers its own resonator.
+
+### NEW: Earthquake Lights Mechanism (IEEE Confirmed)
+
+Professor Freund's research (65 sites worldwide) confirms:
+- Stressed granite produces **visible light** via piezoelectricity
+- No fire needed—only pressure/vibration
+- Explains absence of soot in underground chambers
+
 ### Chris Dunn - Ultrasonic Machining
 > "Quartz crystals... are responsive to the influence of vibration in the ultrasonic ranges and can be induced to vibrate at high frequency... Instead of resisting the cutting action, the quartz would be induced to respond and vibrate in sympathy with the high frequency waves and amplify the abrasive action."
 
 **Implication**: The quartz in granite becomes an *active participant* in vibrational shaping.
 
-### The 111 Hz Pattern
-- Malta Hypogeum: 114 Hz and 68-70 Hz
-- King's Chamber: ~117 Hz
-- UK megalithic chambers: 95-120 Hz
-- MRI studies show 111 Hz alters brain function
-- Within male vocal fundamental range
+### The 110 Hz Pattern (Global)
 
-### Piezoelectricity
-- Granite contains 20-60% quartz
-- Vibration generates electrical charge
-- Sustained resonance = sustained electrical output
-- May explain electromagnetic anomalies at sites
+| Site | Location | Frequency | Date |
+|------|----------|-----------|------|
+| Göbekli Tepe | Turkey | 68-69 Hz (pillar) | 9600 BCE |
+| Malta Hypogeum | Malta | 70 Hz & 114 Hz | 3500 BCE |
+| Newgrange | Ireland | ~110 Hz | 3200 BCE |
+| King's Chamber | Egypt | ~117 Hz | 2560 BCE |
+
+**Pattern**: Frequencies cluster in ranges (70-130 Hz) known to affect human consciousness.
 
 ---
 
