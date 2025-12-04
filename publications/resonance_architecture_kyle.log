@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  4 DEC 2025 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  4 DEC 2025 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -294,19 +294,8 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthR=\skip68
 \@temptokenb=\toks23
 )
-(/usr/local/texlive/2025/texmf-dist/tex/latex/epigraph/epigraph.sty
-Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/nextpage/nextpage.sty
-Package: nextpage 2009/09/03 v1.1a additional page commands
-)
-\beforeepigraphskip=\skip69
-\afterepigraphskip=\skip70
-\epigraphwidth=\skip71
-\epigraphrule=\skip72
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 39.
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 52
+Package hyperref Info: Option `colorlinks' set `true' on input line 38.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 46
 .
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1ppl.fd
@@ -320,24 +309,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 (./resonance_architecture_kyle.aux)
 \openout1 = `resonance_architecture_kyle.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -395,15 +384,20 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 52.
+Package hyperref Info: Link coloring ON on input line 46.
 
 (./resonance_architecture_kyle.out) (./resonance_architecture_kyle.out)
 \@outlinefile=\write3
 \openout3 = `resonance_architecture_kyle.out'.
 
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 7
-9.
 
+Overfull \hbox (0.12665pt too wide) in paragraph at lines 75--76
+[]\T1/ppl/b/n/10.95 The pro-cess is self-correcting\T1/ppl/m/n/10.95 ---surface
+s au-to-mat-i-cally con-verge to-ward max-i-mum con-
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 9
+2.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
@@ -416,12 +410,6 @@ al/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 [2]
 
 [3]
-Overfull \hbox (3.79398pt too wide) in paragraph at lines 187--188
-\T1/ppl/m/n/10.95 mys-tery schools, se-cret so-ci-eties, and even-tu-ally gets 
-en-coded in places like Ross-lyn Chapel. 
- []
-
-
 
 [4]
 
@@ -435,20 +423,20 @@ nged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10824 strings out of 473190
- 168694 string characters out of 5715801
- 589545 words of memory out of 5000000
- 33944 multiletter control sequences out of 15000+600000
+ 10747 strings out of 473190
+ 166915 string characters out of 5715801
+ 590013 words of memory out of 5000000
+ 33863 multiletter control sequences out of 15000+600000
  567448 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,355b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,357b,561s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
 /local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/
 texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on resonance_architecture_kyle.pdf (5 pages, 74596 bytes).
+Output written on resonance_architecture_kyle.pdf (5 pages, 69931 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 66 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
