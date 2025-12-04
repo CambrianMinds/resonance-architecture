@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  4 DEC 2025 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  4 DEC 2025 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -317,7 +317,7 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count291
 \l__pdf_internal_box=\box54
 )
-No file resonance_architecture_kyle.aux.
+(./resonance_architecture_kyle.aux)
 \openout1 = `resonance_architecture_kyle.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -338,6 +338,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -395,6 +396,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring ON on input line 52.
+
+(./resonance_architecture_kyle.out) (./resonance_architecture_kyle.out)
 \@outlinefile=\write3
 \openout3 = `resonance_architecture_kyle.out'.
 
@@ -427,29 +430,22 @@ en-coded in places like Ross-lyn Chapel.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `resonance_architecture_kyle.out' has chan
-ged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resonance_architecture_kyle.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `resonance_architecture_kyle.out' has not cha
+nged.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10816 strings out of 473190
- 168414 string characters out of 5715801
- 589454 words of memory out of 5000000
- 33942 multiletter control sequences out of 15000+600000
+ 10824 strings out of 473190
+ 168694 string characters out of 5715801
+ 589545 words of memory out of 5000000
+ 33944 multiletter control sequences out of 15000+600000
  567448 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,355b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
 /local/texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/
 texlive/2025/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on resonance_architecture_kyle.pdf (5 pages, 74800 bytes).
+Output written on resonance_architecture_kyle.pdf (5 pages, 74596 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
