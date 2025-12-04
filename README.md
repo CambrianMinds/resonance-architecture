@@ -152,12 +152,55 @@ Anomalous rut systems found in:
 
 ---
 
+## Repository Structure
+
+```
+resonance-architecture/
+├── README.md                    # This file
+├── INTEGRATED_THEORY.md         # Unified hypothesis framework
+├── sites/
+│   └── SITE_DATABASE.md         # Catalog of relevant sites
+└── research/
+    ├── ACOUSTIC_PROPERTIES.md   # Material science data
+    ├── ACOUSTIC_LEGENDS.md      # Historical accounts and parallels
+    ├── NUB_HYPOTHESIS.md        # Nub function analysis
+    ├── TRANSPORT_HYPOTHESIS.md  # Cart ruts reinterpretation
+    └── WEB_RESEARCH_FINDINGS.md # Compiled web research
+```
+
+---
+
+## Key Research Findings (December 2025)
+
+### Chris Dunn - Ultrasonic Machining
+> "Quartz crystals... are responsive to the influence of vibration in the ultrasonic ranges and can be induced to vibrate at high frequency... Instead of resisting the cutting action, the quartz would be induced to respond and vibrate in sympathy with the high frequency waves and amplify the abrasive action."
+
+**Implication**: The quartz in granite becomes an *active participant* in vibrational shaping.
+
+### The 111 Hz Pattern
+- Malta Hypogeum: 114 Hz and 68-70 Hz
+- King's Chamber: ~117 Hz
+- UK megalithic chambers: 95-120 Hz
+- MRI studies show 111 Hz alters brain function
+- Within male vocal fundamental range
+
+### Piezoelectricity
+- Granite contains 20-60% quartz
+- Vibration generates electrical charge
+- Sustained resonance = sustained electrical output
+- May explain electromagnetic anomalies at sites
+
+---
+
 ## Related Work
 
-- UnchartedX (Ben van Kerkwyk) — precision measurement documentation
-- Brien Foerster — megalithic site documentation
-- The Snake Brothers — ongoing research
-- *The Mathematics of Connection* (J.T. Bogner, 2025) — substrate field framework, consciousness coupling
+- **Chris Dunn** — Ultrasonic machining analysis of Egyptian artifacts
+- **UnchartedX** (Ben van Kerkwyk) — Precision measurement documentation
+- **Brien Foerster** — Megalithic site documentation
+- **Dr. Robert Schoch** — Acoustic archaeology, Sphinx dating
+- **Paul Devereux** — Acoustic properties of sacred sites
+- **The Snake Brothers** — Ongoing research
+- *The Mathematics of Connection* (J.T. Bogner, 2025) — Substrate field framework
 
 ---
 
