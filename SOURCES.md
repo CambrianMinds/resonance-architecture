@@ -112,6 +112,69 @@ Springer, New York
 
 ---
 
+## Archaeoacoustic Studies
+
+### 10. Ancient Chamber Resonance and Brain Activity
+
+**Cook, I.A., Pajot, S.K. & Leuchter, A.F. (2008)**  
+"Ancient Architectural Acoustic Resonance Patterns and Regional Brain Activity"  
+*Time and Mind*, 1(1), 95-104
+
+- **DOI**: [10.2752/175169608783489099](https://doi.org/10.2752/175169608783489099)
+- **PDF Available**: [icrl.org/wp-content/uploads/2020/02/Brain-Activity-And-Acoustic-Resonance.pdf](https://icrl.org/wp-content/uploads/2020/02/Brain-Activity-And-Acoustic-Resonance.pdf)
+- **Authors**: UCLA Laboratory of Brain, Behavior, and Pharmacology
+- **Key Finding**: At 110 Hz, left temporal brain activity significantly decreased; prefrontal asymmetry shifted to right-hemisphere dominance—consistent with deactivation of language centers
+
+---
+
+### 11. Acoustics of Megalithic Chambers
+
+**Jahn, R.G., Devereux, P. & Ibison, M. (1996)**  
+"Acoustical Resonances of Assorted Ancient Structures"  
+*Journal of the Acoustics Society of America*, 99, 649-658
+
+- **Institution**: Princeton Engineering Anomalies Research (PEAR)
+- **Key Finding**: All megalithic chambers tested (including Newgrange) exhibited primary resonance at 95-120 Hz, most at 110-112 Hz
+
+---
+
+### 12. Malta Hypogeum Acoustic Analysis
+
+**Debertolis, P., Coimbra, F. & Eneix, L. (2015)**  
+"Archaeoacoustic Analysis of the Ħal Saflieni Hypogeum in Malta"  
+*Journal of Anthropology and Archaeology*, 3(1), 59-79
+
+- **PDF Available**: [University of Malta Repository](https://www.um.edu.mt/library/oar/bitstream/123456789/16630/1/OA%20Archaeoacoustic%20Analysis%20of%20the%20%C4%A6al%20Saflieni%20Hypogeum%20in%20Malta.pdf)
+- **Key Finding**: Oracle Room exhibits dual resonance at 70 Hz and 114 Hz; male voice at these frequencies stimulates resonance throughout hypogeum
+
+---
+
+### 13. Göbekli Tepe Archaeoacoustic Study
+
+**Debertolis, P., Gullà, D. & Savolainen, H. (2017)**  
+"Archaeoacoustic Analysis in Enclosure D at Göbekli Tepe in South Anatolia, Turkey"  
+*Super Brain Research Group*
+
+- **PDF Available**: [sbresearchgroup.eu/Archaeoacoustic Analysis in Enclosure D at Göbekli Tepe](http://sbresearchgroup.eu/Immagini/Archaeoacoustic%20Analysis%20in%20Enclosure%20D%20at%20G%C3%B6bekli%20Tepe%20in%20South%20Anatolia.pdf)
+- **Collaboration**: Klaus Schmidt (site discoverer, deceased 2014)
+- **Key Finding**: 20-22 Hz underground vibration; central pillar resonates at 68-69 Hz with harmonics in 65-145 Hz range affecting brain activity
+
+---
+
+## Electromagnetic Studies
+
+### 14. Great Pyramid Electromagnetic Properties
+
+**Balezin, M., Baryshnikova, K.V. et al. (2018)**  
+"Electromagnetic properties of the Great Pyramid: First multipole resonances and energy concentration"  
+*Journal of Applied Physics*, 124, 034903
+
+- **DOI**: [10.1063/1.5026556](https://doi.org/10.1063/1.5026556)
+- **Institutions**: ITMO University (Russia) / Laser Zentrum Hannover (Germany)
+- **Key Finding**: Under resonance conditions (200-600m wavelengths), pyramid concentrates electromagnetic energy in internal chambers and under base
+
+---
+
 ## Verification Notes
 
 All DOIs have been verified via CrossRef API as of December 2024.  
