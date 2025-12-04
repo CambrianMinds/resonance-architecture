@@ -63,17 +63,20 @@ From the Petrie Museum drill cores:
 
 ```
 resonance-architecture/
-├── README.md              ← You are here
-├── THE_CASE.md            ← Complete hypothesis document
-├── SOURCES.md             ← Full citation list with DOIs
+├── README.md                  ← You are here
+├── THE_CASE.md                ← Complete hypothesis document
+├── SOURCES.md                 ← Full citation list with DOIs
 ├── research/
-│   ├── PHYSICS_DEEP_DIVE.md   ← Peer-reviewed physics research
-│   └── NUB_HYPOTHESIS.md      ← Nubs as anchor points
+│   ├── PHYSICS_DEEP_DIVE.md           ← Peer-reviewed physics research
+│   ├── NUB_HYPOTHESIS.md              ← Nubs as anchor points
+│   ├── DUNN_DRILL_CORE_ANALYSIS.md    ← Dunn's observations + resonance explanation
+│   └── ULTRASONIC_MACHINING_PARAMETERS.md  ← Frequency/parameter estimates
 ├── papers/                    ← Actual PDF papers (open access)
 │   ├── Luo_2024_Scientific_Reports_Ultrasonic_Friction.pdf
 │   ├── Popov_2020_Frontiers_Mech_Eng_Vibration_Friction.pdf
 │   ├── Saksala_2023_Rock_Mech_Piezoelectric_Granite.pdf
-│   └── Assenova_Vencl_2022_Tribology_Self_Organization.pdf
+│   ├── Assenova_Vencl_2022_Tribology_Self_Organization.pdf
+│   └── Dunn_Advanced_Machining_Ancient_Egypt.html
 └── publications/
     ├── letter_to_kyle.tex     ← LaTeX source
     └── letter_to_kyle.pdf     ← Compiled letter
