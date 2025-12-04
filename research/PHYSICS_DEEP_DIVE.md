@@ -253,9 +253,9 @@ The physics exists. It is published. The question is not whether it works - it d
 
 ## Primary Sources
 
-1. Luo, L. et al. (2024). "Ultrasonic vibration reduces friction force by up to 89% in stick-slip lubrication." *Scientific Reports*, 14, 11512. DOI: 10.1038/s41598-024-62367-7
+1. Luo, L. et al. (2024). "The inhibition mechanism of ultrasonic vibration on stick-slip phenomenon of sliding friction pair." *Scientific Reports*, 14, 22449. DOI: [10.1038/s41598-024-73652-w](https://doi.org/10.1038/s41598-024-73652-w)
 
-2. Popov, V.L. (2020). "Unified model for active control of static and sliding friction by normal, tangential, and transverse oscillations." *Frontiers in Mechanical Engineering*, 6, 69.
+2. Popov, M. (2020). "The Influence of Vibration on Friction: A Contact-Mechanical Perspective." *Frontiers in Mechanical Engineering*, 6, 69. DOI: [10.3389/fmech.2020.00069](https://doi.org/10.3389/fmech.2020.00069)
 
 3. Saksala, T. et al. (2023). "Weakening of Compressive Strength of Granite by Piezoelectric Actuation of Quartz Using High-Frequency and High-Voltage Alternating Current: A 3D Numerical Study." *Rock Mechanics and Rock Engineering*, 56, 7655-7672.
 
