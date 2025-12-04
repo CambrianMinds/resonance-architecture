@@ -1,4 +1,4 @@
-\documentclass[twocolumn,10pt]{article}
+\documentclass[10pt]{article}
 
 % Packages
 \usepackage[utf8]{inputenc}
@@ -10,11 +10,11 @@
 \usepackage{amssymb}
 \usepackage{booktabs}
 \usepackage{hyperref}
-\usepackage{natbib}
-\usepackage{abstract}
 \usepackage{titlesec}
 \usepackage{fancyhdr}
 \usepackage{caption}
+\usepackage{multicol}
+\usepackage{float}
 
 % Page geometry
 \geometry{
@@ -29,10 +29,6 @@
 \titleformat{\section}{\normalfont\large\bfseries}{\thesection}{1em}{}
 \titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
 
-% Abstract formatting
-\renewcommand{\abstractnamefont}{\normalfont\bfseries}
-\renewcommand{\abstracttextfont}{\normalfont\small}
-
 % Header
 \pagestyle{fancy}
 \fancyhf{}
@@ -42,23 +38,25 @@
 
 \begin{document}
 
+% Title page - single column
 \title{\textbf{The Resonance Architecture Hypothesis:\\Acoustic Engineering in Megalithic Construction}}
 
 \author{
-\textit{A Synthesis of Archaeoacoustic, Piezoelectric, and\\Vibrational Physics Evidence}
+\textit{A Synthesis of Archaeoacoustic, Piezoelectric, and Vibrational Physics Evidence}
 }
 
 \date{December 2025}
 
-\twocolumn[
-  \begin{@twocolumnfalse}
-    \maketitle
-    \begin{abstract}
-This paper presents a systematic analysis of anomalous characteristics shared by megalithic structures across geographically isolated sites, proposing a unified explanatory framework based on vibrational physics. We synthesize peer-reviewed research on archaeoacoustics, piezoelectricity, friction reduction under oscillation, and electromagnetic resonance to argue that ancient builders possessed sophisticated understanding of acoustic engineering principles. Evidence includes: (1) consistent resonance frequencies (70--114 Hz) across sites with no known cultural contact; (2) neurological effects of these frequencies documented in clinical studies; (3) recent physics research demonstrating electromagnetic energy concentration in pyramid geometry; (4) laboratory-confirmed friction reduction of up to 89\% under ultrasonic vibration; and (5) architectural features consistent with intentional acoustic design rather than decorative or structural function. We propose that vibrational technology---using coordinated acoustic energy for stone shaping, transport, and ritual application---represents a coherent explanation for otherwise unexplained precision, transport logistics, and global pattern distribution. Testable predictions and experimental approaches are outlined.
-    \end{abstract}
-    \vspace{1em}
-  \end{@twocolumnfalse}
-]
+\maketitle
+
+\begin{abstract}
+\noindent This paper presents a systematic analysis of anomalous characteristics shared by megalithic structures across geographically isolated sites, proposing a unified explanatory framework based on vibrational physics. We synthesize peer-reviewed research on archaeoacoustics, piezoelectricity, friction reduction under oscillation, and electromagnetic resonance to argue that ancient builders possessed sophisticated understanding of acoustic engineering principles. Evidence includes: (1) consistent resonance frequencies (70--114 Hz) across sites with no known cultural contact; (2) neurological effects of these frequencies documented in clinical studies; (3) recent physics research demonstrating electromagnetic energy concentration in pyramid geometry; (4) laboratory-confirmed friction reduction of up to 89\% under ultrasonic vibration; and (5) architectural features consistent with intentional acoustic design rather than decorative or structural function. We propose that vibrational technology---using coordinated acoustic energy for stone shaping, transport, and ritual application---represents a coherent explanation for otherwise unexplained precision, transport logistics, and global pattern distribution. Testable predictions and experimental approaches are outlined.
+\end{abstract}
+
+\vspace{1em}
+
+% Begin two-column layout
+\begin{multicols}{2}
 
 \section{Introduction}
 
@@ -85,22 +83,23 @@ Cook et al. (2008) conducted EEG monitoring of subjects exposed to various reson
 ``The patterns of activity over the prefrontal cortex abruptly shifted, resulting in a relative deactivation of the language center and temporary shifting from left to right-sided dominance.''
 \end{quote}
 
-The right hemisphere is associated with emotional processing, spatial reasoning, and creativity. This neurological shift occurs specifically at 110 Hz---the precise frequency measured in ancient chambers across multiple continents \citep{cook2008}.
+The right hemisphere is associated with emotional processing, spatial reasoning, and creativity. This neurological shift occurs specifically at 110 Hz---the precise frequency measured in ancient chambers across multiple continents.
 
 \subsection{Cross-Site Frequency Correlation}
 
 Table \ref{tab:frequencies} presents resonance measurements from sites with no known cultural contact.
 
-\begin{table}[h]
+\begin{table}[H]
 \centering
-\caption{Primary Resonance Frequencies at Ancient Sites}
+\caption{Primary Resonance Frequencies}
 \label{tab:frequencies}
+\small
 \begin{tabular}{@{}lcc@{}}
 \toprule
-\textbf{Site} & \textbf{Date} & \textbf{Frequency} \\
+\textbf{Site} & \textbf{Date} & \textbf{Freq.} \\
 \midrule
 Göbekli Tepe & 9600 BCE & 68--69 Hz \\
-Ħal Saflieni & 3500 BCE & 70 Hz, 114 Hz \\
+Ħal Saflieni & 3500 BCE & 70, 114 Hz \\
 Newgrange & 3200 BCE & $\sim$110 Hz \\
 King's Chamber & 2560 BCE & $\sim$117 Hz \\
 \bottomrule
@@ -111,7 +110,7 @@ The clustering of frequencies within the 70--117 Hz range---precisely where neur
 
 \section{Göbekli Tepe: The Precedent Problem}
 
-In 2017, researchers from the Super Brain Research Group conducted archaeoacoustic analysis at Göbekli Tepe with permission from Klaus Schmidt, the site's discoverer \citep{debertolis2017}.
+In 2017, researchers from the Super Brain Research Group conducted archaeoacoustic analysis at Göbekli Tepe with permission from Klaus Schmidt, the site's discoverer.
 
 \subsection{Ground Vibration Measurements}
 
@@ -139,7 +138,7 @@ This site predates the Egyptian pyramids by approximately 7,000 years. At a time
 
 \subsection{Earthquake Lights}
 
-Professor Freund at San Jose University compiled data from 65 sites worldwide where ``earthquake lights'' appeared before seismic events. The mechanism has been confirmed in laboratory conditions \citep{freund2003}:
+Professor Freund at San Jose University compiled data from 65 sites worldwide where ``earthquake lights'' appeared before seismic events. The mechanism has been confirmed in laboratory conditions:
 
 \begin{enumerate}
 \item Stress on granite activates piezoelectric charge in quartz crystals
@@ -147,7 +146,7 @@ Professor Freund at San Jose University compiled data from 65 sites worldwide wh
 \item Ionized air produces visible light
 \end{enumerate}
 
-Kato et al. (2010) demonstrated this experimentally, stressing granite slabs until light began to glow on the surface \citep{kato2010}.
+Kato et al. (2010) demonstrated this experimentally, stressing granite slabs until light began to glow on the surface.
 
 \subsection{Implications for Megalithic Chambers}
 
@@ -155,7 +154,7 @@ Granite contains 20--60\% quartz. Massive granite structures under compressive s
 
 \section{Electromagnetic Concentration in Pyramid Geometry}
 
-In 2018, researchers from ITMO University and Laser Zentrum Hannover published findings in the \textit{Journal of Applied Physics} demonstrating that the Great Pyramid concentrates electromagnetic energy at specific points \citep{balezin2018}.
+In 2018, researchers from ITMO University and Laser Zentrum Hannover published findings in the \textit{Journal of Applied Physics} demonstrating that the Great Pyramid concentrates electromagnetic energy at specific points.
 
 Using numerical modeling and multipole analysis:
 
@@ -170,7 +169,7 @@ The chambers are positioned precisely at electromagnetic energy concentration no
 
 \section{Friction Reduction Under Vibration}
 
-Popov (2020) documented in \textit{Frontiers in Mechanical Engineering} that vibration significantly reduces friction---a phenomenon known since the 1950s but rarely discussed in archaeological contexts \citep{popov2020}.
+Popov (2020) documented in \textit{Frontiers in Mechanical Engineering} that vibration significantly reduces friction---a phenomenon known since the 1950s but rarely discussed in archaeological contexts.
 
 \begin{quote}
 ``Under ultrasonic vibration, friction force reduced by up to 89\%.''
@@ -203,6 +202,7 @@ The builders of Rosslyn Chapel encoded acoustic knowledge in stone 350 years bef
 Sound can lift objects. This is not speculation---it is laboratory physics. Modern acoustic levitators use ultrasonic transducers to create standing waves where objects hover at nodes (minimum pressure points).
 
 Current limitations include:
+
 \begin{itemize}
 \item Requirements exceeding 150 dB
 \item Best results at ultrasonic frequencies
@@ -211,11 +211,12 @@ Current limitations include:
 
 However, the principle is proven: sound pressure can counteract gravity. The question becomes whether alternative configurations (lower frequencies, piezoelectric amplification, resonant chamber effects) could scale the effect.
 
-\section{The Interior Joint Geometry Problem}
+\section{The Interior Joint Geometry}
 
 Photographs of earthquake-shifted walls in Cusco reveal that the interior surfaces of fitted joints are not flat or uniform. The pillowing characteristic of exterior surfaces \textit{continues into the invisible interior}, changing direction as it goes deeper.
 
 This observation rules out:
+
 \begin{itemize}
 \item \textbf{Casting/geopolymer}: Molds produce uniform interiors
 \item \textbf{Conventional fitting}: Chisels produce flat surfaces
@@ -253,27 +254,32 @@ This is not mysticism. It is physics---physics that modern science has confirmed
 
 We simply forgot to listen.
 
-\bibliographystyle{apalike}
-\begin{thebibliography}{99}
+\section*{References}
 
-\bibitem[Balezin et al., 2018]{balezin2018}
-Balezin, M., et al. (2018). Electromagnetic properties of the Great Pyramid: First multipole resonances and energy concentration. \textit{Journal of Applied Physics}, 124(3), 034903.
+\small
 
-\bibitem[Cook et al., 2008]{cook2008}
-Cook, I.A., et al. (2008). Ancient Architectural Acoustic Resonance Patterns and Regional Brain Activity. \textit{Time and Mind}, 1(1), 95--104.
+\noindent Balezin, M., et al. (2018). Electromagnetic properties of the Great Pyramid: First multipole resonances and energy concentration. \textit{Journal of Applied Physics}, 124(3), 034903.
 
-\bibitem[Debertolis et al., 2017]{debertolis2017}
-Debertolis, P., Gullà, D., \& Savolainen, H. (2017). Archaeoacoustic Analysis in Enclosure D at Göbekli Tepe. \textit{SBRG Conference Proceedings}.
+\vspace{0.3em}
 
-\bibitem[Freund, 2003]{freund2003}
-Freund, F.T. (2003). Rocks that crackle and sparkle and glow: Strange pre-earthquake phenomena. \textit{Journal of Scientific Exploration}, 17(1), 37--71.
+\noindent Cook, I.A., et al. (2008). Ancient Architectural Acoustic Resonance Patterns and Regional Brain Activity. \textit{Time and Mind}, 1(1), 95--104.
 
-\bibitem[Kato et al., 2010]{kato2010}
-Kato, M., Mitsui, Y., \& Yanagidani, T. (2010). Photographic evidence of luminescence during faulting in granite. \textit{Earth, Planets and Space}, 62(5), 489--493.
+\vspace{0.3em}
 
-\bibitem[Popov, 2020]{popov2020}
-Popov, V.L. (2020). The Influence of Vibration on Friction: A Contact-Mechanical Perspective. \textit{Frontiers in Mechanical Engineering}, 6, 69.
+\noindent Debertolis, P., Gullà, D., \& Savolainen, H. (2017). Archaeoacoustic Analysis in Enclosure D at Göbekli Tepe. \textit{SBRG Conference Proceedings}.
 
-\end{thebibliography}
+\vspace{0.3em}
+
+\noindent Freund, F.T. (2003). Rocks that crackle and sparkle and glow: Strange pre-earthquake phenomena. \textit{Journal of Scientific Exploration}, 17(1), 37--71.
+
+\vspace{0.3em}
+
+\noindent Kato, M., Mitsui, Y., \& Yanagidani, T. (2010). Photographic evidence of luminescence during faulting in granite. \textit{Earth, Planets and Space}, 62(5), 489--493.
+
+\vspace{0.3em}
+
+\noindent Popov, V.L. (2020). The Influence of Vibration on Friction: A Contact-Mechanical Perspective. \textit{Frontiers in Mechanical Engineering}, 6, 69.
+
+\end{multicols}
 
 \end{document}
