@@ -452,6 +452,28 @@ The songs and chants and rituals weren't superstition. They were **the technolog
 
 When the priesthood died, the songs stopped. And no one remembered what they were for.
 
+### The Pyramid as Resonator: Peer-Reviewed Proof
+
+In 2018, researchers from ITMO University and Laser Zentrum Hannover published a study in the *Journal of Applied Physics* (DOI: 10.1063/1.5026556) that confirmed what the Resonance Architecture hypothesis predicts:
+
+**The Great Pyramid concentrates electromagnetic energy in its internal chambers.**
+
+Using numerical modeling and multipole analysis, they discovered:
+- Radio waves (200-600m wavelength) induce resonances in the structure
+- Energy **concentrates in the King's Chamber**
+- Energy also concentrates **under the base** (location of unfinished chamber)
+- The pyramid functions as a **resonant cavity**
+
+This is not speculation. This is peer-reviewed physics, published in a major journal.
+
+The King's Chamber isn't where it is by accident. It's positioned at an **energy concentration node** of the pyramid geometry. The same is true for the unfinished chamber beneath the base.
+
+Quote from Dr. Andrey Evlyukhin: "We decided to look at the Great Pyramid as a particle dissipating radio waves resonantly."
+
+They found exactly what we'd expect if the builders understood resonance: a structure **optimized for energy concentration** at specific points.
+
+The chambers aren't afterthoughts. They aren't burial vaults that happened to land in these positions. They are **the purpose of the structure**—positioned precisely where electromagnetic energy accumulates.
+
 ---
 
 *This document is speculation. But it is informed speculation, built on evidence, using known physics, making testable predictions.*
