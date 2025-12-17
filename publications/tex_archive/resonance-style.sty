@@ -1,0 +1,94 @@
+% resonance-style.sty
+% Shared style for Resonance Architecture documents
+% Based on letter_to_kyle.tex template
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{resonance-style}[2025/12/04 Resonance Architecture Document Style]
+
+% Required packages
+\RequirePackage[margin=1.2in]{geometry}
+\RequirePackage{fontspec}
+\RequirePackage{setspace}
+\RequirePackage{hyperref}
+\RequirePackage{graphicx}
+\RequirePackage{xcolor}
+\RequirePackage{titlesec}
+\RequirePackage{booktabs}
+\RequirePackage{longtable}
+\RequirePackage{enumitem}
+\RequirePackage{fancyhdr}
+\RequirePackage{titling}
+
+% Font setup (requires XeLaTeX)
+\setmainfont{Georgia}
+\setsansfont{Helvetica Neue}
+
+% Colors
+\definecolor{linkblue}{RGB}{51, 102, 153}
+\definecolor{sectiongray}{RGB}{60, 60, 60}
+\definecolor{subtlegray}{RGB}{100, 100, 100}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=sectiongray,
+    urlcolor=linkblue,
+    citecolor=linkblue,
+}
+
+% Section formatting
+\titleformat{\section}{\Large\bfseries\sffamily\color{sectiongray}}{\thesection}{1em}{}[\vspace{0.3em}\hrule\vspace{0.5em}]
+\titleformat{\subsection}{\large\bfseries\sffamily\color{sectiongray}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\sffamily\color{subtlegray}}{\thesubsubsection}{1em}{}
+
+% Spacing
+\setstretch{1.15}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+
+% Quote formatting
+\renewenvironment{quote}{%
+    \list{}{%
+        \leftmargin=1.5em
+        \rightmargin=1.5em
+        \topsep=0.5em
+        \partopsep=0pt
+        \parsep=0pt
+        \itshape
+    }%
+    \item\relax
+}{%
+    \endlist
+}
+
+% Custom blockquote environment
+\newenvironment{blockquote}{%
+    \begin{quote}
+    \color{subtlegray}
+}{%
+    \end{quote}
+}
+
+% Header/footer styling
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily\color{subtlegray}\leftmark}
+\fancyhead[R]{\small\sffamily\color{subtlegray}\thepage}
+\fancyfoot[C]{\small\sffamily\color{subtlegray}Resonance Architecture Hypothesis}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Title page styling
+\pretitle{\begin{center}\LARGE\bfseries\sffamily\color{sectiongray}}
+\posttitle{\par\end{center}\vskip 0.5em}
+\preauthor{\begin{center}\normalsize\sffamily}
+\postauthor{\par\end{center}}
+\predate{\begin{center}\small\sffamily\color{subtlegray}}
+\postdate{\par\end{center}}
+
+% Custom commands
+\newcommand{\sourcenote}[1]{\par\vspace{0.5em}\textit{\small Source: #1}\par}
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
+\newcommand{\verified}{\textcolor{green!50!black}{\textbf{[Verified]}}}
+
+\endinput
