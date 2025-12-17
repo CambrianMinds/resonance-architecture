@@ -1,0 +1,105 @@
+:root {
+  --primary-color: #2c3e50;
+  --accent-color: #3498db;
+  --text-color: #333;
+  --bg-color: #fdfdfd;
+  --code-bg: #f6f8fa;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.8;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--primary-color);
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+h1 { font-weight: 800; font-size: 2.5rem; line-height: 1.2; }
+h2 { font-weight: 600; font-size: 1.8rem; border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
+h3 { font-weight: 600; font-size: 1.4rem; }
+
+a { color: var(--accent-color); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+.site-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.site-nav {
+  float: right;
+  margin-top: 5px;
+}
+
+.site-nav .page-link {
+  color: var(--text-color);
+  margin-left: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+}
+
+blockquote {
+  border-left: 4px solid var(--accent-color);
+  margin: 1.5em 0;
+  padding-left: 1em;
+  color: #555;
+  font-style: italic;
+}
+
+code {
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 0.9em;
+}
+
+.post-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.site-footer {
+  border-top: 1px solid #eee;
+  padding: 40px 0;
+  margin-top: 60px;
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 600px) {
+  .site-nav {
+    float: none;
+    margin-top: 15px;
+    display: block;
+  }
+  .site-nav .page-link { margin-left: 0; margin-right: 15px; }
+}

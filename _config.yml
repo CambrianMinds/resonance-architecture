@@ -1,0 +1,27 @@
+title: Resonance Architecture
+description: A Hypothesis for Ancient Stone Working Grounded in Physics
+theme: jekyll-theme-cayman
+url: "https://cambrianminds.github.io" # Replace with your actual URL
+baseurl: "/resonance-architecture" # Replace with repository name if different
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+navigation:
+  - title: Home
+    url: /
+  - title: The Hypothesis
+    url: /hypothesis/
+  - title: Physics Evidence
+    url: /research/physics/
+  - title: Drill Core Analysis
+    url: /research/drilling/
+  - title: Nub Hypothesis
+    url: /research/nubs/
+  - title: Tech Parameters
+    url: /research/parameters/
+  - title: For Kids
+    url: /kids/
+  - title: Sources
+    url: /sources/
