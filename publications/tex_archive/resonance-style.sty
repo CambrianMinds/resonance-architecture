@@ -98,23 +98,20 @@
 
 % arXiv-style watermark on left margin
 \AddToShipoutPictureBG{%
-    \begin{tikzpicture}[remember picture, overlay]
-        % Vertical text on left margin (rotated 90 degrees)
-        \node[
-            rotate=90,
-            anchor=center,
-            font=\sffamily\small,
-            color=subtlegray,
-            xshift=0.5in,
-            yshift=0pt
-        ] at (current page.west) {%
-            \href{https://cambrianminds.com}{\textbf{cambrianminds.com}} \quad $\bullet$ \quad Resonance Architecture \quad $\bullet$ \quad Justin T. Bogner%
-        };
-        % Decorative vertical line
-        \draw[subtlegray, line width=0.75pt]
-            ([xshift=0.3in]current page.north west) --
-            ([xshift=0.3in]current page.south west);
-    \end{tikzpicture}%
+    \AtPageLowerLeft{%
+        \raisebox{0.5\paperheight}{%
+            \rlap{%
+                \hspace{0.35in}%
+                \rotatebox{90}{%
+                    \parbox{9in}{%
+                        \centering%
+                        \sffamily\footnotesize\color{black!50}%
+                        \href{https://cambrianminds.com}{\textbf{cambrianminds.com}} \quad $\bullet$ \quad Resonance Architecture \quad $\bullet$ \quad Justin T. Bogner%
+                    }%
+                }%
+            }%
+        }%
+    }%
 }
 
 \endinput
