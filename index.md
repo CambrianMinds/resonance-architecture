@@ -51,4 +51,3 @@ From the Petrie Museum drill cores:
 *   [**Drill Core Analysis**](/research/drilling/) - Why the Petrie cores are the "smoking gun."
 *   [**The Nub Hypothesis**](/research/nubs/) - A functional reanalysis of megalithic bosses.
 *   [**Technical Parameters**](/research/parameters/) - Frequencies, amplitudes, and power requirements.
-*   [**Stone Secrets (Kids Version)**](/kids/) - A simplified explanation for curious minds.
