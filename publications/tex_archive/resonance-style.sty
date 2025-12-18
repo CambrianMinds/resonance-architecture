@@ -1,12 +1,13 @@
 % resonance-style.sty
 % Shared style for Resonance Architecture documents
 % Based on letter_to_kyle.tex template
+% Author: Justin T. Bogner | cambrianminds.com
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{resonance-style}[2025/12/04 Resonance Architecture Document Style]
+\ProvidesPackage{resonance-style}[2025/12/18 Resonance Architecture Document Style]
 
 % Required packages
-\RequirePackage[margin=1.2in]{geometry}
+\RequirePackage[margin=1.2in, left=1.5in]{geometry}  % Extra left margin for watermark
 \RequirePackage{fontspec}
 \RequirePackage{setspace}
 \RequirePackage{hyperref}
@@ -18,15 +19,19 @@
 \RequirePackage{enumitem}
 \RequirePackage{fancyhdr}
 \RequirePackage{titling}
+\RequirePackage{eso-pic}  % For watermark
+\RequirePackage{tikz}     % For advanced graphics
 
 % Font setup (requires XeLaTeX)
 \setmainfont{Georgia}
 \setsansfont{Helvetica Neue}
 
-% Colors
+% Colors - Personalized Cambrian Minds palette
 \definecolor{linkblue}{RGB}{51, 102, 153}
-\definecolor{sectiongray}{RGB}{60, 60, 60}
+\definecolor{sectiongray}{RGB}{45, 45, 65}      % Deeper, more sophisticated
 \definecolor{subtlegray}{RGB}{100, 100, 100}
+\definecolor{accentcolor}{RGB}{91, 44, 111}     % Deep purple accent
+\definecolor{watermarkgray}{RGB}{180, 180, 190} % Light gray for watermark
 
 % Hyperlink setup
 \hypersetup{
@@ -90,5 +95,26 @@
 \newcommand{\sourcenote}[1]{\par\vspace{0.5em}\textit{\small Source: #1}\par}
 \newcommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
 \newcommand{\verified}{\textcolor{green!50!black}{\textbf{[Verified]}}}
+
+% arXiv-style watermark on left margin
+\AddToShipoutPictureBG{%
+    \begin{tikzpicture}[remember picture, overlay]
+        % Vertical text on left margin (rotated 90 degrees)
+        \node[
+            rotate=90,
+            anchor=center,
+            font=\sffamily\small,
+            color=subtlegray,
+            xshift=0.5in,
+            yshift=0pt
+        ] at (current page.west) {%
+            \href{https://cambrianminds.com}{\textbf{cambrianminds.com}} \quad $\bullet$ \quad Resonance Architecture \quad $\bullet$ \quad Justin T. Bogner%
+        };
+        % Decorative vertical line
+        \draw[subtlegray, line width=0.75pt]
+            ([xshift=0.3in]current page.north west) --
+            ([xshift=0.3in]current page.south west);
+    \end{tikzpicture}%
+}
 
 \endinput
