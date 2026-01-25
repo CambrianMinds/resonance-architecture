@@ -60,15 +60,13 @@ This paper demonstrates something profound: **Granite itself is not passive duri
 
 ---
 
-## Part III: Chris Dunn's Anomaly Explained
+## Part III: The Drill Core Anomaly Explained
 
 ### The Observation
 
-From Christopher Dunn's analysis of drill cores at the Petrie Museum:
+Analysis of granite drill cores from the Petrie Museum reveals a cutting pattern that appears to defy the basic principles of mechanical abrasion: the spiral grooves left by the drill are cut deeper into the hard quartz crystals than they are into the surrounding, softer feldspar matrix.
 
-> "The spiral groove cut deeper through the quartz than through the softer feldspar. In conventional machining the reverse would be the case."
-
-**This is backwards.** In normal drilling, softer material (feldspar) should cut faster, and harder material (quartz) should cut slower.
+**This is backwards.** In any normal abrasive process, softer material should cut faster than harder material.
 
 ### The Ultrasonic Explanation
 
@@ -76,8 +74,8 @@ From Christopher Dunn's analysis of drill cores at the Petrie Museum:
 
 1.  Quartz is piezoelectric—it resonates sympathetically with the ultrasonic vibration.
 2.  This resonance causes the quartz to "shake itself apart" at the molecular level.
-3.  The harder quartz actually becomes EASIER to remove than the inert feldspar.
-4.  This is exactly what Saksala et al. (2023) demonstrated: targeted weakening of quartz in granite.
+3.  The harder quartz actually becomes EASIER to remove than the inert, non-piezoelectric feldspar.
+4.  This is exactly what Saksala et al. (2023) demonstrated in simulation: targeted weakening of quartz in granite via high-frequency vibration.
 
 ---
 
@@ -112,7 +110,7 @@ This describes exactly what happens during vibrational fitting:
 
 **3. Core Drilling**
 *   Physics: Sympathetic resonance of piezoelectric quartz.
-*   Result: Dunn's "impossible" feed rates explained.
+*   Result: Anomalous core drilling feed rates explained.
 
 **4. Nubs as Anchor Points**
 *   Physics: Same friction reduction that enables transport.

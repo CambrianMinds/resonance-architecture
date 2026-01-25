@@ -27,13 +27,17 @@ Kyle Allen proposed that ancient stoneworkers used **high-frequency vibration wi
 
 ## Key Evidence
 
-### Chris Dunn's Anomaly
+### The Drill Core Paradox
 
-From the Petrie Museum drill cores:
+From Sir Flinders Petrie's 1883 analysis of granite drill cores from Giza:
 
-> *"The spiral groove cut deeper through the quartz than through the softer feldspar. In conventional machining the reverse would be the case."*
+> *"The spiral of the cut sinks .100 inch in the circumference of 6 inches... a rate of ploughing out of the quartz and feldspar which is astonishing."*
 
-**This is backwards.** Harder material should cut slower. Unless the quartz is resonating sympathetically with ultrasonic vibration—then it shakes itself apart faster than inert feldspar.
+This observation presents two paradoxes:
+1.  **The Speed:** This feed rate is 100x-1000x faster than modern conventional drilling.
+2.  **The Hardness:** The grooves were cut deeper into the harder quartz than the softer feldspar.
+
+This is backwards. In normal machining, harder material cuts slower. Unless the quartz is resonating sympathetically with ultrasonic vibration—then it shakes itself apart faster than inert feldspar.
 
 ### The Nub Distribution
 
