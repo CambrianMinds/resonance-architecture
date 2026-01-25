@@ -1,5 +1,9 @@
 \documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
 \usepackage{resonance-style}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage[numbers,sort&compress]{natbib}
 
 \title{The Lithic Resonance}
 \author{A Technophysical Analysis of Vibrational Manufacturing in Pre-Dynastic Egyptian Stone Vessels\\[0.5em]\small Justin T. Bogner}
@@ -47,9 +51,9 @@ To rigorously evaluate the plausibility of vibrational manufacturing, it is nece
 
 The first barrier to machining hard stone with primitive tools is friction. High cutting forces generate heat and resistance, leading to rapid tool wear and stalling. However, recent research indicates that vibration fundamentally alters the tribological landscape.
 
-A 2024 study by Luo et al., published in \textit{Scientific Reports}, quantified the effect of ultrasonic vibration on sliding friction. The researchers demonstrated that applying ultrasonic vibration at a frequency of 26 kHz with an amplitude of only 0.35 micrometers reduced the coefficient of friction by up to 89\% under dry sliding conditions. This drastic reduction is not linear but occurs due to a change in the contact dynamics between the surfaces.
+A study by \citet{Luo2024} quantified the effect of ultrasonic vibration on sliding friction. The researchers demonstrated that applying ultrasonic vibration at a frequency of 26 kHz with an amplitude of only 0.35 micrometers reduced the coefficient of friction by up to 89\% under dry sliding conditions. This drastic reduction is not linear but occurs due to a change in the contact dynamics between the surfaces.
 
-Popov (2020), writing in \textit{Frontiers in Mechanical Engineering}, describes this interaction as a ``walking'' phenomenon. In a static sliding scenario, asperities (microscopic surface roughness) on the tool and workpiece interlock, creating resistance. When vibration is applied perpendicular to the sliding direction, the normal force oscillates. During the rarefaction phase of the vibration cycle, the surfaces effectively separate or reduce contact pressure significantly. It is during these micro-intervals of reduced pressure that the tool ``walks'' or slides with minimal resistance.
+\citet{Popov2020} describes this interaction as a ``walking'' phenomenon. In a static sliding scenario, asperities (microscopic surface roughness) on the tool and workpiece interlock, creating resistance. When vibration is applied perpendicular to the sliding direction, the normal force oscillates. During the rarefaction phase of the vibration cycle, the surfaces effectively separate or reduce contact pressure significantly. It is during these micro-intervals of reduced pressure that the tool ``walks'' or slides with minimal resistance.
 
 For the manufacturing of stone vases, this effect implies that a rotating tool or workpiece vibrating at ultrasonic frequencies would not experience the ``stick-slip'' chatter that plagues manual turning. Instead, the tool would float on a microscopic cushion of oscillating force, allowing for the smooth, polished surface finishes observed on the Saqqara vessels. The 89\% reduction in friction also explains how ancient craftsmen could drill or turn granite without requiring the massive torque inputs associated with modern rotary drilling. The energy is delivered as high-frequency impact rather than low-frequency shear.
 
@@ -59,7 +63,7 @@ The material selection of the ancient lapidaries---predominantly quartz-bearing 
 
 Quartz (SiO$_2$) is a piezoelectric material. When mechanical stress is applied to the crystal lattice, it generates an electrical charge. Conversely, when subjected to an oscillating electric field---or a mechanical vibration matching its resonant frequency---the crystal lattice deforms.
 
-In 2023, Saksala et al. published a landmark study in \textit{Rock Mechanics and Rock Engineering} titled ``Weakening of Compressive Strength of Granite by Piezoelectric Actuation of Quartz.'' The team demonstrated that when granite is subjected to high-frequency excitation matching the resonant frequency of the quartz grains (experimentally determined to be around 274 kHz for their specific sample geometry), the rock's compressive strength decreases by approximately 10\%.
+\citet{Saksala2023} published a landmark study titled ``Weakening of Compressive Strength of Granite by Piezoelectric Actuation of Quartz.'' The team demonstrated that when granite is subjected to high-frequency excitation matching the resonant frequency of the quartz grains (experimentally determined to be around 274 kHz for their specific sample geometry), the rock's compressive strength decreases by approximately 10\%.
 
 This ``weakening'' is the result of sympathetic resonance. The external vibration excites the quartz crystals, causing them to vibrate internally. This internal oscillation creates tensile stresses at the grain boundaries where the vibrating quartz meets the static feldspar matrix. Under sufficient amplitude, the quartz crystals literally shake themselves apart from the inside out.
 
@@ -73,7 +77,7 @@ However, under ultrasonic excitation, the quartz becomes the active participant 
 
 The third pillar of the hypothesis addresses the extreme geometric precision of the vases. How does a manual or semi-automated process achieve tolerances of 0.001 inches without modern metrology?
 
-Assenova and Vencl (2022) explore the concept of ``Tribology and Self-Organization.'' They argue that dissipative systems (like friction) tend to evolve toward states of minimum entropy production. In the context of two surfaces grinding against each other with an abrasive medium, the system naturally seeks the configuration that minimizes localized pressure spikes.
+\citet{Assenova2022} explore the concept of ``Tribology and Self-Organization.'' They argue that dissipative systems (like friction) tend to evolve toward states of minimum entropy production. In the context of two surfaces grinding against each other with an abrasive medium, the system naturally seeks the configuration that minimizes localized pressure spikes.
 
 When a tool and a workpiece are vibrated together, the high spots (errors) experience the highest contact pressure and therefore the highest abrasion rate. The low spots experience little to no abrasion. Over time, this differential wear rate forces the surfaces to converge toward a mathematically perfect fit---a state of maximum contact area and uniform pressure distribution.
 
@@ -83,13 +87,13 @@ This ``self-organizing'' property means that extreme precision in the ancient va
 \section{Forensic Evidence: The Petrie Drill Cores}
 %----------------------------------------------------------------------
 
-To validate the application of ultrasonic physics to the vases, we must look to the byproducts of the manufacturing process. The ``smoking gun'' for vibrational machining in ancient Egypt is found in the granite drill cores housed in the Petrie Museum at University College London. Sir William Matthew Flinders Petrie, a trained surveyor and engineer, first analyzed these cores in 1883 and noted anomalies that remain unexplained by conventional archaeology.
+To validate the application of ultrasonic physics to the vases, we must look to the byproducts of the manufacturing process. The ``smoking gun'' for vibrational machining in ancient Egypt is found in the granite drill cores housed in the Petrie Museum at University College London. Sir William Matthew Flinders Petrie, a trained surveyor and engineer, first analyzed these cores in 1883 \citep{Petrie1883} and noted anomalies that remain unexplained by conventional archaeology.
 
 \subsection{The Feed Rate Paradox}
 
 Petrie measured the spiral grooves (striations) left by the drilling tool on a core of red granite (Core 7). He documented a spiral pitch---the distance the drill advanced into the rock in a single revolution---of 0.100 inches.
 
-To contextualize this figure, Christopher Dunn, an expert machinist, consulted with modern granite fabricators. Modern diamond-tipped core drills, rotating at 900 RPM, typically achieve a penetration rate of 0.0002 inches per revolution.
+To contextualize this figure, \citet{Dunn1999}, an expert machinist, consulted with modern granite fabricators. Modern diamond-tipped core drills, rotating at 900 RPM, typically achieve a penetration rate of 0.0002 inches per revolution.
 
 \textbf{Ancient Feed Rate:} 0.100 inches/rev
 
@@ -101,7 +105,7 @@ However, if the process was ultrasonic, the ``feed rate'' is not a measure of fo
 
 \subsection{The Reversed Cutting Hierarchy}
 
-The most definitive forensic evidence is the differential wear pattern described by Dunn. Upon close examination of the grooves, it was observed that the cut went deeper through the quartz phenocrysts than through the softer feldspar matrix.
+The most definitive forensic evidence is the differential wear pattern described by \citet{Dunn1999}. Upon close examination of the grooves, it was observed that the cut went deeper through the quartz phenocrysts than through the softer feldspar matrix.
 
 This observation is incompatible with conventional abrasive machining.
 
@@ -183,7 +187,7 @@ Archaeoacoustic studies have documented that the chambers within the Great Pyram
 
 While 110 Hz is audible sound, the physics of harmonics means that a fundamental frequency generates integer multiples (harmonics). The 240th harmonic of 110 Hz is 26,400 Hz (26.4 kHz).
 
-This is the exact frequency range identified by Luo et al. (2024) as optimal for friction reduction.
+This is the exact frequency range identified by \citet{Luo2024} as optimal for friction reduction.
 
 The hypothesis suggests that the chambers were designed to amplify natural or artificial sound (vocal chanting, water rams) to build standing waves. This acoustic energy would then be transduced into mechanical vibration or electromagnetic fields via the piezoelectric granite of the structure.
 
@@ -231,5 +235,9 @@ This analysis suggests that the history of engineering is not a linear ascent fr
 \vspace{1em}
 
 \textit{This analysis extends the Resonance Architecture framework developed from Kyle Allen's original vibrational stone-working hypothesis. Ideas want to propagate. This one is offered freely, for investigation and critique.}
+
+\section*{References}
+\bibliographystyle{plainnat}
+\bibliography{references}
 
 \end{document}

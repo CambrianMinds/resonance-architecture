@@ -1,5 +1,9 @@
 \documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
 \usepackage{resonance-style}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage[numbers,sort&compress]{natbib}
 
 \title{The Frequencies That Cut Stone}
 \author{Justin T. Bogner\\[0.5em]\small Parameters, Mechanisms, and Implications}
@@ -37,7 +41,7 @@ This document explores the technical parameters of vibrational stone working, no
 
 \subsection{What Luo's Experiments Show}
 
-In 2024, Luo and colleagues published precise measurements of friction reduction under ultrasonic vibration. Their experiments used aluminum oxide-copper sliding pairs with controlled normal loads, measuring friction coefficients under both static and vibrating conditions.
+\citet{Luo2024} published precise measurements of friction reduction under ultrasonic vibration. Their experiments used aluminum oxide-copper sliding pairs with controlled normal loads, measuring friction coefficients under both static and vibrating conditions.
 
 The key parameters:
 
@@ -65,7 +69,7 @@ From the workers' perspective, a stone that ``weighs'' 4.6 tons is dramatically 
 
 The question becomes: could ancient builders generate 26 kHz vibration with 0.35 micrometer amplitude?
 
-Honestly? Probably not at those exact specifications. But the relationship between frequency, amplitude, and friction reduction is not all-or-nothing. Popov's theoretical work shows that friction reduction increases with vibration amplitude and frequency, but it exists across a wide range of parameters. A less optimal frequency or smaller amplitude would yield less friction reduction---perhaps 50\% instead of 89\%---but any reduction is significant when moving massive stones.
+Honestly? Probably not at those exact specifications. But the relationship between frequency, amplitude, and friction reduction is not all-or-nothing. The theoretical work of \citet{Popov2020} shows that friction reduction increases with vibration amplitude and frequency, but it exists across a wide range of parameters. A less optimal frequency or smaller amplitude would yield less friction reduction---perhaps 50\% instead of 89\%---but any reduction is significant when moving massive stones.
 
 %----------------------------------------------------------------------
 \section{Ultrasonic Machining: The Cutting Edge}
@@ -91,7 +95,7 @@ For drilling, the tool vibrates axially while rotating. The vibration provides t
 
 \subsection{The Ancient Drill Core Problem}
 
-Petrie calculated that ancient Egyptian tube drills penetrated granite at rates requiring axial loads of ``one or two tons'' on the drill---loads that would shatter copper tubes long before achieving useful penetration.
+\citet{Petrie1883} calculated that ancient Egyptian tube drills penetrated granite at rates requiring axial loads of ``one or two tons'' on the drill---loads that would shatter copper tubes long before achieving useful penetration.
 
 But this calculation assumes conventional abrasive cutting: the drill grinds material away through sustained contact, and the cutting rate depends on pressure and speed.
 
@@ -99,7 +103,7 @@ Ultrasonic machining follows different physics. Material removal depends on impa
 
 More importantly, ultrasonic machining in quartz-bearing rock benefits from piezoelectric amplification. The quartz crystals embedded in granite are themselves resonators. At the right frequency, they oscillate sympathetically, converting acoustic energy into mechanical vibration at the molecular level. The rock participates in its own destruction.
 
-This is why the Petrie cores show faster cutting through quartz than through feldspar. The quartz is not just being drilled; it is vibrating itself apart.
+This is why the cores analyzed by \citet{Petrie1883} show faster cutting through quartz than through feldspar. The quartz is not just being drilled; it is vibrating itself apart.
 
 %----------------------------------------------------------------------
 \section{Piezoelectric Resonance: The Rock That Shakes Itself}
@@ -107,7 +111,7 @@ This is why the Petrie cores show faster cutting through quartz than through fel
 
 \subsection{The Saksala Finding}
 
-In 2023, Saksala and colleagues at Tampere University demonstrated that piezoelectric resonance weakens granite by 10\% at the sample's natural resonant frequency.
+\citet{Saksala2023} demonstrated that piezoelectric resonance weakens granite by 10\% at the sample's natural resonant frequency.
 
 Their test conditions:
 
@@ -121,7 +125,7 @@ Their test conditions:
 
 This is not large enough to explain stone cutting by itself, but it shifts the balance. In a cutting process where hard quartz normally resists abrasion while softer feldspar yields, piezoelectric weakening can reverse the relationship. The quartz becomes relatively easier to remove; the feldspar becomes relatively harder to cut.
 
-The resonant frequency depends on sample dimensions. Larger samples resonate at lower frequencies; smaller samples at higher. The 274.4 kHz frequency in Saksala's experiments applied to cores approximately 10 cm in diameter. Different geometries would resonate at different frequencies.
+The resonant frequency depends on sample dimensions. Larger samples resonate at lower frequencies; smaller samples at higher. The 274.4 kHz frequency in the experiments by \citet{Saksala2023} applied to cores approximately 10 cm in diameter. Different geometries would resonate at different frequencies.
 
 This actually helps the ancient-technology hypothesis. A consistent external frequency would interact differently with different grain sizes in the rock, but some grains would always be near resonance. The effect would be distributed across the cutting zone rather than concentrated at a single frequency.
 
@@ -136,7 +140,7 @@ Research on megalithic chambers has documented resonant frequencies in the 95--1
     \item Various dolmens: 95--120 Hz range
 \end{itemize}
 
-A 110 Hz fundamental produces harmonics at integer multiples: 220 Hz, 330 Hz, 440 Hz, and so on. The 20th harmonic is 2.2 kHz. The 200th harmonic is 22 kHz. The 240th harmonic is 26.4 kHz---precisely the frequency Luo showed reduces friction by 89\%.
+A 110 Hz fundamental produces harmonics at integer multiples: 220 Hz, 330 Hz, 440 Hz, and so on. The 20th harmonic is 2.2 kHz. The 200th harmonic is 22 kHz. The 240th harmonic is 26.4 kHz---precisely the frequency shown by \citet{Luo2024} to reduce friction by 89\%.
 
 Could vocal harmonics in resonant chambers reach ultrasonic frequencies? The physics does not prohibit it. Harmonic content diminishes at higher frequencies, but resonant amplification could partially compensate. Whether sufficient amplitude could be achieved remains an open question.
 
@@ -246,5 +250,9 @@ Whether the hypothesis is correct remains to be seen. But it is not wild specula
 \vspace{1em}
 
 \textit{The frequencies are known. The amplitudes are documented. What remains is to ask whether ancient builders might have discovered, empirically, what we have learned to specify precisely.}
+
+\section*{References}
+\bibliographystyle{plainnat}
+\bibliography{references}
 
 \end{document}

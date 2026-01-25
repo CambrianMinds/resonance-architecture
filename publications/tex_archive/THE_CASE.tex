@@ -1,5 +1,9 @@
 \documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
 \usepackage{resonance-style}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage[numbers,sort&compress]{natbib}
 
 \title{The Case for Resonance Architecture}
 \author{Justin T. Bogner\\[0.5em]\small A Hypothesis Grounded in Physics}
@@ -57,7 +61,7 @@ What if friction were not the obstacle we assume?
 
 \subsection{The Drill Core Paradox}
 
-In 1883, Sir William Matthew Flinders Petrie---the founding figure of systematic Egyptology---examined ancient drill cores extracted from Egyptian granite and published observations that have never been satisfactorily explained. The spiral grooves cut into these cores showed a feed rate of 0.100 inches per revolution, a rate that Petrie found ``astonishing.''
+\citet{Petrie1883}---the founding figure of systematic Egyptology---examined ancient drill cores extracted from Egyptian granite and published observations that have never been satisfactorily explained. The spiral grooves cut into these cores showed a feed rate of 0.100 inches per revolution, a rate that Petrie found ``astonishing.''
 
 How astonishing? In the 1980s, Christopher Dunn consulted with Donald Rahn of Rahn Granite Surface Plate Company to establish modern comparison data. Using diamond-tipped drills rotating at 900 RPM, modern industry achieves approximately 0.0002 inches per revolution in granite.
 
@@ -77,9 +81,9 @@ Something else was happening.
 
 \subsection{Vibration and Friction}
 
-In 2024, Luo and colleagues published a remarkable finding in \textit{Scientific Reports}: ultrasonic vibration at 26 kHz reduces friction by up to 89\% under dry conditions. The amplitude required was astonishingly small---0.35 micrometers, less than a wavelength of visible light.
+A remarkable finding by \citet{Luo2024} demonstrated that ultrasonic vibration at 26 kHz can reduce friction by up to 89\% under dry conditions. The amplitude required was astonishingly small---0.35 micrometers, less than a wavelength of visible light.
 
-This is not new physics. As Popov noted in a 2020 review in \textit{Frontiers in Mechanical Engineering}, ``the fact that vibration can be used to significantly reduce the force of friction has been known since at least the 1950s.'' Modern industry employs vibrational friction reduction in wire drawing, press forming, precision positioning, and ultrasonic motors.
+This is not new physics. As \citet{Popov2020} noted in a review, ``the fact that vibration can be used to significantly reduce the force of friction has been known since at least the 1950s.'' Modern industry employs vibrational friction reduction in wire drawing, press forming, precision positioning, and ultrasonic motors.
 
 The mechanism is elegant. During each vibration cycle, there exists a moment when normal force between surfaces is minimal. In that instant, one surface can advance relative to the other with greatly reduced resistance. Popov describes this as ``walking'': the contact point stands still when normal force is highest, covers distance when load diminishes. The stone does not levitate. It takes microscopic steps forward, thousands of times per second, each step occurring in the low-friction phase of the vibration cycle.
 
@@ -91,7 +95,7 @@ Granite is not a homogeneous material. It is a composite of several minerals, pr
 
 Piezoelectricity means that mechanical stress produces electrical charge, and conversely, electrical fields produce mechanical strain. This is why quartz crystals keep time in watches---apply an oscillating electrical field and the crystal vibrates at a precise frequency. The principle works in reverse too: vibrate the crystal mechanically, and it generates electrical oscillations.
 
-In 2023, Saksala and colleagues published a study in \textit{Rock Mechanics and Rock Engineering} demonstrating something extraordinary: high-frequency vibration causes piezoelectric actuation of quartz crystals \textit{within granite}, weakening the rock's compressive strength by 10\% at resonant frequencies around 274 kHz.
+More recently, \citet{Saksala2023} demonstrated something extraordinary: high-frequency vibration causes piezoelectric actuation of quartz crystals \textit{within granite}, weakening the rock's compressive strength by 10\% at resonant frequencies around 274 kHz.
 
 The implications for the drill core paradox are immediate. If an ancient drill was vibrating at frequencies that excited sympathetic resonance in quartz crystals, those crystals would not be passive material waiting to be abraded. They would be actively shaking themselves apart at the molecular level. The harder quartz would become \textit{easier} to remove than the inert feldspar---exactly the reversed relationship Petrie observed.
 
@@ -99,7 +103,7 @@ This is the smoking gun. No conventional technology produces this signature. But
 
 \subsection{Self-Organization and Perfect Fit}
 
-The third strand of physics comes from tribology---the science of surfaces in contact. In 2022, Assenova and Vencl published a review of self-organization phenomena in friction systems, describing how surfaces in vibrating contact spontaneously evolve toward ordered configurations.
+The third strand of physics comes from tribology---the science of surfaces in contact. A review by \citet{Assenova2022} on self-organization phenomena in friction systems described how surfaces in vibrating contact spontaneously evolve toward ordered configurations.
 
 The principle is Prigogine's minimum entropy production: a dissipative system tends toward the state that minimizes energy dissipation. For two surfaces grinding together with abrasive medium, that state is maximum contact area. High-pressure points experience more abrasion and wear down. Low-pressure points experience less abrasion and are preserved. The system self-corrects toward a configuration where pressure is evenly distributed---which means surfaces that fit together as perfectly as possible.
 
@@ -190,5 +194,10 @@ Either way, we will have taken the anomalies seriously. That is all any puzzle a
 \vspace{1em}
 
 \textit{Ideas want to propagate. This one is offered freely, for investigation and critique.}
+
+\newpage
+\section*{References}
+\bibliographystyle{plainnat}
+\bibliography{references}
 
 \end{document}

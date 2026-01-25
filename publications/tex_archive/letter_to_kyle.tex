@@ -1,8 +1,12 @@
 \documentclass[11pt]{article}
 \usepackage[margin=1.2in]{geometry}
+\usepackage[T1]{fontenc}
 \usepackage{fontspec}
 \usepackage{setspace}
 \usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage[numbers,sort&compress]{natbib}
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{titlesec}
@@ -43,9 +47,9 @@ This letter is my way of bringing you what I found. All of it points back to you
 
 \subsection*{Friction Drops 89\% Under Vibration}
 
-Luo et al. published in \textit{Scientific Reports} (2024) demonstrated that ultrasonic vibration at 26 kHz reduces friction by up to \textbf{89\%} under dry conditions. But here's what makes this remarkable: the amplitude required was only 0.35 micrometers. That's smaller than a wavelength of visible light. Imperceptible vibration. Massive effect.
+\citet{Luo2024} demonstrated that ultrasonic vibration at 26 kHz reduces friction by up to \textbf{89\%} under dry conditions. But here's what makes this remarkable: the amplitude required was only 0.35 micrometers. That's smaller than a wavelength of visible light. Imperceptible vibration. Massive effect.
 
-The mechanism they describe is a "walking" phenomenon, explained beautifully by Popov (2020) in \textit{Frontiers in Mechanical Engineering}:
+The mechanism they describe is a "walking" phenomenon, explained beautifully by \citet{Popov2020}:
 
 \begin{quote}
 \textit{"Contact point stands still when normal force is highest, covers more distance when load diminishes. Similar to walking, where one leg carries the load without dissipation, while the other is lifted and advanced."}
@@ -55,11 +59,11 @@ The stone doesn't levitate. It doesn't need to. It \textit{walks}. Each vibratio
 
 A 70-ton stone with 89\% friction reduction effectively weighs 7 tons for transport purposes. Suddenly the crew sizes in ancient accounts make sense. Suddenly the absence of extensive road infrastructure makes sense. Suddenly the "cart ruts" of Malta—those mysterious grooves that go off cliffs and underwater—make sense as wear patterns from repeated vibrational transport along the same paths.
 
-And here's the kicker: Popov notes that \textit{"the fact that vibration can be used to significantly reduce the force of friction has been known since at least the 1950s."} Modern industry uses this for wire drawing, press forming, cutting, and precision positioning. It's not theoretical. It's Tuesday.
+And here's the kicker: \citeauthor{Popov2020} notes that \textit{"the fact that vibration can be used to significantly reduce the force of friction has been known since at least the 1950s."} Modern industry uses this for wire drawing, press forming, cutting, and precision positioning. It's not theoretical. It's Tuesday.
 
 \subsection*{Quartz Resonates Sympathetically}
 
-Saksala et al. (2023) in \textit{Rock Mechanics and Rock Engineering} demonstrated something remarkable: high-frequency vibration causes \textbf{piezoelectric actuation of quartz crystals within granite}, weakening the rock's compressive strength by 10\% at resonant frequencies around 274 kHz.
+\citet{Saksala2023} demonstrated something remarkable: high-frequency vibration causes \textbf{piezoelectric actuation of quartz crystals within granite}, weakening the rock's compressive strength by 10\% at resonant frequencies around 274 kHz.
 
 Let me unpack why this matters.
 
@@ -90,7 +94,7 @@ This is the smoking gun. No conventional technology explains cutting faster thro
 
 \subsection*{Self-Organizing Contact Mechanics}
 
-The tribology literature describes exactly what your hypothesis predicts. Assenova \& Vencl (2022) write:
+The tribology literature describes exactly what your hypothesis predicts. \citet{Assenova2022} write:
 
 \begin{quote}
 \textit{"Self-organization is associated with the spontaneous creation of highly ordered structures... The system can pass from one equilibrium state to another, more adequate to the changed external and internal conditions."}
@@ -186,19 +190,20 @@ I've put together a research repository with everything I found:
     \item Proposed experiments to verify the mechanism
 \end{itemize}
 
-It's all at: \url{https://github.com/CambrianMinds/resonance-architecture}
+I've included the references below. The papers are open access. The analysis is thorough. It's yours to use however you see fit.
 
-The papers are open access. The analysis is thorough. It's yours to use however you see fit.
+\bibliographystyle{plainnat}
+\bibliography{references}
 
 \section*{What This Means}
 
 Kyle, you came up with this hypothesis by thinking carefully about the physical evidence. What I've done is verify that the physics backs you up. Every mechanism you described exists in the peer-reviewed literature:
 
 \begin{itemize}
-    \item 89\% friction reduction via ultrasonic vibration — published 2024
-    \item Piezoelectric weakening of quartz in granite — published 2023
+    \item 89\% friction reduction via ultrasonic vibration \citep{Luo2024}
+    \item Piezoelectric weakening of quartz in granite \citep{Saksala2023}
     \item Self-organizing contact mechanics in tribology — established field
-    \item The "walking" mechanism for vibration-assisted transport — published 2020
+    \item The "walking" mechanism for vibration-assisted transport \citep{Popov2020}
 \end{itemize}
 
 The question isn't whether the physics works—it demonstrably does. The question is whether the ancients discovered it empirically, and if so, how they generated and sustained the necessary frequencies.

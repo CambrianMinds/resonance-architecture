@@ -1,5 +1,9 @@
 \documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
 \usepackage{resonance-style}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage[numbers,sort&compress]{natbib}
 
 \title{Deep Physics Research}
 \author{Justin T. Bogner\\[0.5em]\small Supporting the Vibrational Stone Grinding Hypothesis}
@@ -25,7 +29,7 @@ The physics is not speculative. It is published, peer-reviewed, and actively res
 
 \subsection{The Core Physics}
 
-\subsubsection{Luo et al.\ (2024) --- Scientific Reports}
+\subsubsection{\citet{Luo2024}}
 \textit{``Ultrasonic vibration reduces friction force by up to 89\% in stick-slip lubrication''}
 
 Key findings:
@@ -37,7 +41,7 @@ Key findings:
     \item ``The resultant average frictional force over the whole cycle is reduced''
 \end{itemize}
 
-\subsubsection{Popov (2020) --- Frontiers in Mechanical Engineering}
+\subsubsection{\citet{Popov2020}}
 \textit{``Unified model for active control of static and sliding friction by normal, tangential, and transverse oscillations''}
 
 The ``walking'' analogy:
@@ -71,7 +75,7 @@ With 89\% friction reduction demonstrated in laboratory conditions:
 
 \subsection{Quartz Responds to Vibration}
 
-\subsubsection{Saksala et al.\ (2023) --- Rock Mechanics and Rock Engineering}
+\subsubsection{\citet{Saksala2023}}
 \textit{``Weakening of Compressive Strength of Granite by Piezoelectric Actuation of Quartz Using High-Frequency and High-Voltage Alternating Current: A 3D Numerical Study''}
 
 Abstract:
@@ -91,7 +95,7 @@ This paper demonstrates something profound: \textbf{Granite itself is not passiv
 
 \subsection{Piezoelectric Rock Physics}
 
-\subsubsection{Bishop (1981) --- Tectonophysics}
+\subsubsection{\citet{Bishop1981}}
 \textit{``Piezoelectric effects in quartz-rich rocks''}
 
 \begin{itemize}
@@ -100,7 +104,7 @@ This paper demonstrates something profound: \textbf{Granite itself is not passiv
     \item This creates internal stress patterns within the rock
 \end{itemize}
 
-\subsubsection{Parkhomenko (1971) --- ``Electrification phenomena in rocks''}
+\subsubsection{\citet{Parkhomenko1971}}
 
 Foundational text establishing:
 \begin{itemize}
@@ -140,7 +144,7 @@ This is backwards. In normal drilling:
     \item Quartz is piezoelectric---it resonates sympathetically with the ultrasonic vibration
     \item This resonance causes the quartz to ``shake itself apart'' at the molecular level
     \item The harder quartz actually becomes EASIER to remove than the inert feldspar
-    \item This is exactly what Saksala et al.\ (2023) demonstrated: targeted weakening of quartz in granite
+    \item This is exactly what \citet{Saksala2023} demonstrated: targeted weakening of quartz in granite
 \end{enumerate}
 
 \textbf{This is the smoking gun.} No conventional drilling technology can explain cutting faster through harder material. But ultrasonic sympathetic resonance with piezoelectric quartz does.
@@ -151,7 +155,7 @@ This is backwards. In normal drilling:
 
 \subsection{Tribology and Self-Organization}
 
-\subsubsection{Assenova \& Vencl (2022) --- Tribology of Materials}
+\subsubsection{\citet{Assenova2022}}
 \textit{``Tribology and self-organization in reducing friction: A brief review''}
 
 Key concepts:
@@ -224,7 +228,7 @@ This is precisely the mechanism Kyle described: rotation + vibration + abrasive 
     \item Physics: 89\% friction reduction via ultrasonic vibration
     \item Mechanism: ``Walking''---stone advances during low-pressure phase of cycle
     \item Result: Multi-ton stones become moveable by small crews
-    \item Published support: Luo et al.\ 2024, Popov 2020
+    \item Published support: \citep{Luo2024, Popov2020}
 \end{itemize}
 
 \subsubsection{3. Core Drilling}
@@ -232,7 +236,7 @@ This is precisely the mechanism Kyle described: rotation + vibration + abrasive 
     \item Physics: Sympathetic resonance of piezoelectric quartz
     \item Mechanism: Quartz shakes itself apart; cuts faster than softer feldspar
     \item Result: Dunn's ``impossible'' feed rates explained
-    \item Published support: Saksala et al.\ 2023
+    \item Published support: \citep{Saksala2023}
 \end{itemize}
 
 \subsubsection{4. Nubs as Anchor Points}
@@ -326,7 +330,11 @@ The physics exists. It is published. The question is not whether it works---it d
 
 \vspace{2em}
 \hrule
-\vspace{1em
+\vspace{1em}
 \textit{Date: December 2025}
+
+\section*{References}
+\bibliographystyle{plainnat}
+\bibliography{references}
 
 \end{document}
