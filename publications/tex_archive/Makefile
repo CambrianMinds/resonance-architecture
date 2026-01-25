@@ -19,8 +19,12 @@ all: $(PDFS)
 	bibtex $(subst .tex,,$<)
 	$(LATEX) $(LATEX_FLAGS) $<
 	$(LATEX) $(LATEX_FLAGS) $<
-	@echo "$@ has been successfully built."
+	@echo "Successfully built $@."
+	@echo "Copying $@ to ../"
+	@cp $@ ../
 
 clean:
-	rm -f *.aux *.log *.out *.toc *.pdf *.fls *.fdb_latexmk
-	@echo "Cleaned build artifacts."
+	@echo "Cleaning build artifacts..."
+	@rm -f *.aux *.bbl *.blg *.log *.out *.toc *.pdf *.fls *.fdb_latexmk
+	@rm -f $(patsubst %.pdf,../%.pdf,$(PDFS))
+	@echo "Clean complete."
